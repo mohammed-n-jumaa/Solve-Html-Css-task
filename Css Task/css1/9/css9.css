@@ -1,0 +1,24 @@
+#sele{
+    background-color:aquamarine;
+    color:darkolivegreen;
+}
+.h2{
+    color: aqua;
+}
+.red{
+    background-color: lightcyan;
+    color: red;
+}
+.p {
+    background-color: pink; 
+    text-align: center;
+}
+
+
+p span:nth-of-type(2) {
+    color: red; 
+}
+
+p span:last-of-type {
+    color: red; 
+}

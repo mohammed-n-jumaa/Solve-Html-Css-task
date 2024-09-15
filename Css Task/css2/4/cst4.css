@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+
+
+.Arial p {
+    font-family: 'Arial', 'Times New Roman', cc;
+   
+    margin: 10px 0;
+}
+
+.font-serif p {
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 10px 0;
+}
+
+.font-monospace p {
+    font-family:"Trirong", serif;
+ 
+    margin: 10px 0;
+}

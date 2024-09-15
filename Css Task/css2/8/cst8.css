@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  }
+  .box {
+    margin-bottom: 20px;
+    padding: 10px;
+    color: white;
+    height: 100px; /* Fixed height for demonstration */
+  }
+
+  .visible {
+    background-color: orange;
+    overflow: visible;
+  }
+
+  .scroll {
+    background-color: blue;
+    overflow: scroll;
+  }
+
+  .scroll-x-y {
+    background-color: green;
+    overflow-x: auto;
+    overflow-y: auto;
+  }
+
+  .hidden {
+    background-color: red;
+    overflow: hidden;
+  }
+
+  .auto {
+    background-color: purple;
+    overflow: auto;
+  }

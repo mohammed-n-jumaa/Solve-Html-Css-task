@@ -1,0 +1,49 @@
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+
+  h1 {
+    color: #333;
+  }
+
+  p {
+    width: 80%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+
+  .border1 {
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+  }
+
+  .border2 {
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px dotted black;
+    border-bottom: 2px dotted black;
+  }
+
+  .border3 {
+    border: 2px dotted black;
+  }
+
+  .border4 {
+    border: 2px solid black;
+  }
+
+  .border5 {
+    border: 2px solid blue;
+  }
+
+  .border6 {
+    border: 2px solid green;
+    border-bottom: 2px dotted green;
+    border-right: 2px solid blue;
+  }

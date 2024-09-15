@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.red-text {
+    color: red;
+    font-size: 20px;
+}
+.green-text {
+    color: #00ff00;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+.center-text {
+    text-align: center;
+    background-color: #7fffd4;
+    font-family: Verdana, sans-serif;
+    font-weight: 100;
+}
+.pink-text {
+    color: pink;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+.orange-text {
+    color: orange;
+    text-align: right;
+    text-decoration: line-through;
+}
+.yellow-text {
+    color: yellow;
+    font-style: italic;
+    text-decoration: underline;
+}
+.link-text {
+    color: blue;
+    text-decoration: underline;
+}

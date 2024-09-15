@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #5d5fef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: #282a36;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    color: white;
+    margin-bottom: 5px;
+}
+input[type="text"], input[type="email"], input[type="number"], select, textarea {
+    margin-bottom: 15px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+.radio-group, .checkbox-group {
+    color: white;
+    margin-bottom: 15px;
+}
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}

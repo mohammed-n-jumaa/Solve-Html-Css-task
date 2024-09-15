@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+   
+}
+
+.font-40 {
+    font-size: 40px;
+    font-style: normal;
+   
+    margin: 10px 0;
+}
+
+.font-70 {
+    font-size: 70px;
+    font-style: normal;
+   
+    margin: 10px 0;
+}
+
+.font-20 {
+    font-size: 20px;
+    font-style: normal;
+   
+    margin: 10px 0;
+}
