@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            display: flex;
+            gap: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .box {
+            background-color: #4a90e2;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            min-height: 150px;
+        }
+        .box:nth-child(1) {
+            flex: 1;
+        }
+        .box:nth-child(2) {
+            flex: 2;
+        }
+        .box:nth-child(3) {
+            flex: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">I am small</div>
+        <div class="box">I have more content than the very small item.</div>
+        <div class="box">I have lots of content. So much content that I don't know where it is all going to go. I'm glad that CSS is pretty good at dealing with situations where we end up with more words than expected!</div>
+    </div>
+</body>
+</html>

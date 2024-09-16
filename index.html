@@ -3,11 +3,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-
+    <title>Task Index Page</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            width: 80%;
+            max-width: 900px;
+        }
+        h1 {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            font-size: 2rem;
+        }
+        table {
+            width: 100%;
+            border-collapse:collapse;
+        }
+        th, td {
+            padding: 20px;
+            text-align: center;
+            font-size: 1.2rem;
+        }
+        th {
+            background-color: #f8f8f8;
+            color: #555;
+            font-weight: bold;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        td {
+            background-color: #fafafa;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        ul li {
+            margin: 10px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+            font-size: 1.1rem;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        a:hover {
+            background-color: #007bff;
+            color: white;
+        }
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.5rem;
+            }
+            th, td {
+                font-size: 1rem;
+                padding: 15px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1> Hello mohammed alqadome</h1>
+    <div class="container">
+        <h1>Task Index Page</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>HTML Task </th>
+                    <th>CSS Task </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <ul>
+                            <li><a href="./Html Task/forms/">Forms</a></li>
+                            <li><a href="./Html Task/htmlElements/">HTML Elements</a></li>
+                            <li><a href="./Html Task/LinkImg/">Link & Image</a></li>
+                            <li><a href="./Html Task/lists/">Lists</a></li>
+                            <li><a href="./Html Task/tables/">Tables</a></li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li><a href="./Css Task/css1/">CSS 1</a></li>
+                            <li><a href="./Css Task/css2/">CSS 2</a></li>
+                            <li><a href="./Css Task/css3/">CSS 3</a></li>
+                            <li><a href="./Css Task/css4/">CSS 4</a></li>
+                            <li><a href="./Css Task/css5/">CSS 5</a></li>
+
+
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>

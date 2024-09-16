@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Size Control</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+            height: 50px;
+        }
+        .flex-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: white;
+        }
+        .item-1 {
+            flex: 3;
+            background-color: #4CAF50;
+        }
+        .item-2 {
+            flex: 1;
+            background-color: #2196F3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="flex-item item-1">
+            <span>1</span>
+            <span>😎</span>
+        </div>
+        <div class="flex-item item-2">
+            <span>2</span>
+            <span>🍕</span>
+        </div>
+    </div>
+</body>
+</html>

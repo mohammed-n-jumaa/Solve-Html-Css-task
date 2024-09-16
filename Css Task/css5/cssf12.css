@@ -1,0 +1,145 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 20px;
+    position: relative; /* Ensure the header scrolls with the page */
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 30px;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+}
+
+.notification img {
+    height: 30px;
+    margin-left: 10px;
+}
+
+.header-icons img {
+    height: 30px;
+    margin-left: 10px;
+}
+
+.search-bar {
+    width: 300px;
+    padding: 5px;
+}
+
+.topics-bar {
+    background-color: #f1f1f1;
+    padding: 10px 0;
+    overflow-x: auto;
+    white-space: nowrap;
+    text-align: center;
+    position: sticky; /* Make the topics bar sticky */
+    top: 50px; /* Stick it below the header */
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+.topics-bar a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.main-container {
+    display: flex;
+    padding: 20px;
+    margin-top: 20px; /* Add margin to separate from header */
+}
+
+.sidebar {
+    width: 60px; /* Reduced width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0; /* Adjusted padding */
+    position: sticky; /* Make the sidebar sticky */
+    top: 70px; /* Adjust the top offset to place it below the header and topics bar */
+    z-index: 1000; /* Ensure it stays above other content */
+    background-color: transparent; /* No background color */
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 20px; /* Increased spacing */
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 12px; /* Smaller font size */
+}
+
+.sidebar ul li a .icon {
+    width: 24px; 
+    height: 24px;
+}
+
+.sidebar ul li a .text {
+    margin-top: 5px;
+}
+
+.main-content {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+}
+
+.video-thumbnail {
+    width: 100%;
+    max-width: 100%;
+}
+
+.video-thumbnail iframe {
+    width: 100%;
+    height: 203px; 
+}
+
+.video-info {
+    margin-top: 10px;
+}
+
+.footer {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
