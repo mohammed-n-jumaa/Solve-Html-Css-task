@@ -3,119 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Task Index Page</title>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .container {
-            background-color: white;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            border-radius: 10px;
-            overflow: hidden;
-            width: 80%;
-            max-width: 900px;
-        }
-        h1 {
-            background-color: #4CAF50;
-            color: white;
-            text-align: center;
-            margin: 0;
-            padding: 20px;
-            font-size: 2rem;
-        }
-        table {
-            width: 100%;
-            border-collapse:collapse;
-        }
-        th, td {
-            padding: 20px;
-            text-align: center;
-            font-size: 1.2rem;
-        }
-        th {
-            background-color: #f8f8f8;
-            color: #555;
-            font-weight: bold;
-            border-bottom: 2px solid #e0e0e0;
-        }
-        td {
-            background-color: #fafafa;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-        }
-        ul li {
-            margin: 10px 0;
-        }
-        a {
-            text-decoration: none;
-            color: #007bff;
-            font-size: 1.1rem;
-            padding: 10px 15px;
-            border-radius: 5px;
-            transition: background-color 0.3s, color 0.3s;
-        }
-        a:hover {
-            background-color: #007bff;
-            color: white;
-        }
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 1.5rem;
-            }
-            th, td {
-                font-size: 1rem;
-                padding: 15px;
-            }
-        }
-    </style>
 </head>
 <body>
     <div class="container">
         <h1>Task Index Page</h1>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>HTML Task </th>
-                    <th>CSS Task </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <ul>
-                            <li><a href="./Html Task/forms/">Forms</a></li>
-                            <li><a href="./Html Task/htmlElements/">HTML Elements</a></li>
-                            <li><a href="./Html Task/LinkImg/">Link & Image</a></li>
-                            <li><a href="./Html Task/lists/">Lists</a></li>
-                            <li><a href="./Html Task/tables/">Tables</a></li>
-                        </ul>
-                    </td>
-                    <td>
-                        <ul>
-                            <li><a href="./Css Task/css1/">CSS 1</a></li>
-                            <li><a href="./Css Task/css2/">CSS 2</a></li>
-                            <li><a href="./Css Task/css3/">CSS 3</a></li>
-                            <li><a href="./Css Task/css4/">CSS 4</a></li>
-                            <li><a href="./Css Task/css5/">CSS 5</a></li>
+        <div class="section">
+            <h2>HTML Tasks</h2>
+            <div class="card-container">
+                <div class="card card-1">
+                    <h3>Forms</h3>
+                    <ul>
+                        <li><a href="./Html Task/forms/form1.html">Form 1</a></li>
+                        <li><a href="./Html Task/forms/form2.html">Form 2</a></li>
+                        <li><a href="./Html Task/forms/form3.html">Form 3</a></li>
+                        <li><a href="./Html Task/forms/form4.html">Form 4</a></li>
+                        <li><a href="./Html Task/forms/form5.html">Form 5</a></li>
+                        <li><a href="./Html Task/forms/form6.html">Form 6</a></li>
+                        <li><a href="./Html Task/forms/form7.html">Form 7</a></li>
+                        <li><a href="./Html Task/forms/form8.html">Form 8</a></li>
+                        <li><a href="./Html Task/forms/form9.html">Form 9</a></li>
+                        <li><a href="./Html Task/forms/form10.html">Form 10</a></li>
+                        <li><a href="./Html Task/forms/form11.html">Form 11</a></li>
+                    </ul>
+                </div>
+                <div class="card card-2">
+                    <h3>HTML Elements</h3>
+                    <ul>
+                        <li><a href="./Html Task/htmlElements/HelloWorld.html">Element 1</a></li>
+                        <li><a href="./Html Task/htmlElements/Coding.html">Element 2</a></li>
+                        <li><a href="./Html Task/htmlElements/Heading.html">Element 3</a></li>
+                        <li><a href="./Html Task/htmlElements/head.html">Element 4</a></li>
+                        <li><a href="./Html Task/htmlElements/Coding.html">Element 5</a></li>
+                        <li><a href="./Html Task/htmlElements/Intermediate.html">Element 6</a></li>
+                        <li><a href="./Html Task/htmlElements/Exer7.html">Element 7</a></li>
+                        <li><a href="./Html Task/htmlElements/Sup.html">Element 8</a></li>
+                        <li><a href="./Html Task/htmlElements/ContainSup.html">Element 9</a></li>
+                        <li><a href="./Html Task/htmlElements/Final.html">Element 10</a></li>
+                    </ul>
+                </div>
+                <div class="card card-3">
+                    <h3>Link & Image</h3>
+                    <ul>
+                        <li><a href="./Html Task/LinkImg/Link1.html">Link 1</a></li>
+                        <li><a href="./Html Task/LinkImg/Link2.html">Link 2</a></li>
+                        <li><a href="./Html Task/LinkImg/Link3.html">Link 3</a></li>
+                        <li><a href="./Html Task/LinkImg/Link4.html">Link 4</a></li>
+                        <li><a href="./Html Task/LinkImg/Link5.html">Link 5</a></li>
+                        <li><a href="./Html Task/LinkImg/Link6.html">Link 6</a></li>
+                        <li><a href="./Html Task/LinkImg/Link7.html">Link 7</a></li>
+                        <li><a href="./Html Task/LinkImg/Link8.html">Link 8</a></li>
+                    </ul>
+                </div>
+                <div class="card card-4">
+                    <h3>Lists</h3>
+                    <ul>
+                        <li><a href="./Html Task/lists/list1.html">List 1</a></li>
+                        <li><a href="./Html Task/lists/list2.html">List 2</a></li>
+                        <li><a href="./Html Task/lists/list3.html">List 3</a></li>
+                        <li><a href="./Html Task/lists/list4.html">List 4</a></li>
+                        <li><a href="./Html Task/lists/list5.html">List 5</a></li>
+                        <li><a href="./Html Task/lists/list6.html">List 6</a></li>
+                        <li><a href="./Html Task/lists/list7.html">List 7</a></li>
+                        <li><a href="./Html Task/lists/list8.html">List 8</a></li>
+                        <li><a href="./Html Task/lists/list9.html">List 9</a></li>
+                        <li><a href="./Html Task/lists/list10.html">List 10</a></li>
+                        <li><a href="./Html Task/lists/list11.html">List 11</a></li>
+                        <li><a href="./Html Task/lists/list12.html">List 12</a></li>
+                    </ul>
+                </div>
+                <div class="card card-5">
+                    <h3>Tables</h3>
+                    <ul>
+                        <li><a href="./Html Task/tables/table1.html">Table 1</a></li>
+                        <li><a href="./Html Task/tables/table2.html">Table 2</a></li>
+                        <li><a href="./Html Task/tables/table3.html">Table 3</a></li>
+                        <li><a href="./Html Task/tables/table4.html">Table 4</a></li>
+                        <li><a href="./Html Task/tables/table5.html">Table 5</a></li>
+                        <li><a href="./Html Task/tables/table6.html">Table 6</a></li>
+                        <li><a href="./Html Task/tables/table7.html">Table 7</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-
+        <div class="section">
+            <h2>CSS Tasks</h2>
+            <div class="card-container">
+                <div class="card card-6">
+                    <h3>CSS Folder 1</h3>
+                    <ul>
+                        <li><a href="./Css Task/css1/css1.html">CSS 1</a></li>
+                        <li><a href="./Css Task/css1/css2.html">CSS 2</a></li>
+                      
+                            <li><a href="./Css Task/css1/css3.html">CSS 3</a></li>
+                            <li><a href="./Css Task/css1/css4.html">CSS 4</a></li>
+                            <li><a href="./Css Task/css1/css5.html">CSS 5</a></li>
+                            <li><a href="./Css Task/css1/css6.html">CSS 6</a></li>
+                            <li><a href="./Css Task/css1/css7.html">CSS 7</a></li>
+                            <li><a href="./Css Task/css1/css8.html">CSS 8</a></li>
+                            <li><a href="./Css Task/css1/css9.html">CSS 9</a></li>
+                            <li><a href="./Css Task/css1/css10.html">CSS 10</a></li>
+                            <li><a href="./Css Task/css1/css11.html">CSS 11</a></li>
+                            <li><a href="./Css Task/css1/css12.html">CSS 12</a></li>
+                            <li><a href="./Css Task/css1/css13.html">CSS 13</a></li>
+                            <li><a href="./Css Task/css1/css14.html">CSS 14</a></li>
+                            <li><a href="./Css Task/css1/css15.html">CSS 15</a></li>
+                            <li><a href="./Css Task/css1/css16.html">CSS 16</a></li>
+                            <li><a href="./Css Task/css1/css17.html">CSS 17</a></li>
                         </ul>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</body>
-</html>
+                    </div>
+                    <div class="card card-2">
+                        <h3>CSS Folder 2</h3>
+                        <ul>
+                            <li><a href="./Css Task/css2/cst1.html">CSS 1</a></li>
+                            <li><a href="./Css Task/css2/cst2.html">CSS 2</a></li>
+                            <li><a href="./Css Task/css2/cst3.html">CSS 3</a></li>
+                            <li><a href="./Css Task/css2/cst4.html">CSS 4</a></li>
+                            <li><a href="./Css Task/css2/cst5.html">CSS 5</a></li>
+                            <li><a href="./Css Task/css2/cst6.html">CSS 6</a></li>
+                            <li><a href="./Css Task/css2/cst7.html">CSS 7</a></li>
+                            <li><a href="./Css Task/css2/cst8.html">CSS 8</a></li>
+                        </ul>
+                    </div>
+                    <div class="card card-3">
+                        <h3>CSS Folder 3</h3>
+                        <ul>
+                            <li><a href="./Css Task/css3/csst1.html">CSS 1</a></li>
+                            <li><a href="./Css Task/css3/csst2.html">CSS 2</a></li>
+                            <li><a href="./Css Task/css3/csst3.html">CSS 3</a></li>
+                            <li><a href="./Css Task/css3/csst4.html">CSS 4</a></li>
+                            <li><a href="./Css Task/css3/csst5.html">CSS 5</a></li>
+                            <li><a href="./Css Task/css3/csst6.html">CSS 6</a></li>
+                            <li><a href="./Css Task/css3/csst7.html">CSS 7</a></li>
+                            <li><a href="./Css Task/css3/csst8.html">CSS 8</a></li>
+                            <li><a href="./Css Task/css3/csst9.html">CSS 9</a></li>
+                            <li><a href="./Css Task/css3/csst10.html">CSS 10</a></li>
+                            <li><a href="./Css Task/css3/csst11.html">CSS 11</a></li>
+                            <li><a href="./Css Task/css3/csst12.html">CSS 12</a></li>
+                            <li><a href="./Css Task/css3/csst13.html">CSS 13</a></li>
+                        </ul>
+                    </div>
+                    <div class="card card-4">
+                        <h3>CSS Folder 4</h3>
+                        <ul>
+                            <li><a href="./Css Task/css4/cssl1.html">CSS 1</a></li>
+                            <li><a href="./Css Task/css4/cssl2.html">CSS 2</a></li>
+                            <li><a href="./Css Task/css4/cssl3.html">CSS 3</a></li>
+                            <li><a href="./Css Task/css4/cssl4.html">CSS 4</a></li>
+                            <li><a href="./Css Task/css4/cssl5.html">CSS 5</a></li>
+                            <li><a href="./Css Task/css4/cssl6.html">CSS 6</a></li>
+                            <li><a href="./Css Task/css4/cssl7.html">CSS 7</a></li>
+                        </ul>
+                    </div>
+                    <div class="card card-5">
+                        <h3>CSS Folder 5</h3>
+                        <ul>
+                            <li><a href="./Css Task/css5/cssf1.html">CSS 1</a></li>
+                            <li><a href="./Css Task/css5/cssf2.html">CSS 2</a></li>
+                            <li><a href="./Css Task/css5/cssf3.html">CSS 3</a></li>
+                            <li><a href="./Css Task/css5/cssf4.html">CSS 4</a></li>
+                            <li><a href="./Css Task/css5/cssf5.html">CSS 5</a></li>
+                            <li><a href="./Css Task/css5/cssf6.html">CSS 6</a></li>
+                            <li><a href="./Css Task/css5/cssf7.html">CSS 7</a></li>
+                            <li><a href="./Css Task/css5/cssf8.html">CSS 8</a></li>
+                            <li><a href="./Css Task/css5/cssf9.html">CSS 9</a></li>
+                            <li><a href="./Css Task/css5/cssf10.html">CSS 10</a></li>
+                            <li><a href="./Css Task/css5/cssf11.html">CSS 11</a></li>
+                            <li><a href="./Css Task/css5/cssf12.html">CSS 12</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+    
