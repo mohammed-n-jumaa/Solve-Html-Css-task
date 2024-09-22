@@ -92,6 +92,9 @@ h2 {
 .card-6 {
     background-color: #6f42c1; 
 }
+.card-7 {
+    background-color:darkolivegreen; 
+}
 
 @media (max-width: 768px) {
     .card {
