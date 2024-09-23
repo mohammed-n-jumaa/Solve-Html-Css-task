@@ -1,1 +1,1 @@
-# Solve-Html-Css-task
+https://www.figma.com/design/7fhAXk2bV2hhNhF1uXCrwg/2024-UI%2FUX-Design-Crash-Course-Project-(Community)?node-id=0-1&m=dev&t=D4TVF2h8dpAanMqD-1
